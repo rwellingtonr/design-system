@@ -12,10 +12,10 @@ export function Heading({ size = "md", children, asChild }: HeadingProps) {
 
 	return (
 		<Component
-			className={clsx("Heading-gray-100 font-bold font-sans", {
-				"Heading-lg": size === "sm",
-				"Heading-xl": size === "md",
-				"Heading-2xl": size === "lg",
+			className={clsx("text-gray-100 font-bold font-sans", {
+				"text-lg": size === "sm",
+				"text-xl": size === "md",
+				"text-2xl": size === "lg",
 			})}
 		>
 			{children}
