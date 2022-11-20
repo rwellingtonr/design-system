@@ -2,8 +2,8 @@ import clsx from "clsx";
 import { Slot } from "@radix-ui/react-slot";
 
 export type TextProps = {
-	size: "sm" | "md" | "lg";
 	children: React.ReactNode;
+	size?: "sm" | "md" | "lg";
 	asChild?: boolean;
 };
 
