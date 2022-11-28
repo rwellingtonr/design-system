@@ -11,7 +11,7 @@ export default function App() {
 	return (
 		<div className="w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100">
 			<header className="flex flex-col items-center">
-				<ReactSvg className="animate-spin-slow hover:animate-spin cursor-pointer" />
+				<ReactSvg className="animate-spin-slow hover:animate-spin-medium cursor-pointer" />
 				<Heading size="lg" className="mt-4">
 					Ignite Lab
 				</Heading>
