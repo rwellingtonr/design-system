@@ -1,4 +1,4 @@
-import { TextInput, TextInputProps, TextInputRootProps } from "./TextInput";
+import { TextInput, TextInputProps, TextInputRootProps } from ".";
 import { Meta, StoryObj } from "@storybook/react";
 import { Envelope } from "phosphor-react";
 
